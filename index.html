@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Giới thiệu bản thân</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  </head>
+  <body>
+    <!-- Trang chủ -->
+    <div data-role="page" id="home">
+      <div data-role="header">
+        <h1>Giới thiệu bản thân</h1>
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <h2>Thông tin cơ bản</h2>
+        <ul data-role="listview">
+          <li>
+            <h3>Họ và tên</h3>
+            <p>黃文孝</p>
+          </li>
+          <li>
+            <h3>Giới tính</h3>
+            <p>男</p>
+          </li>
+          <li>
+            <h3>Tuổi</h3>
+            <p>18歲</p>
+          </li>
+          <li>
+            <h3>Email</h3>
+            <p>hhieu4882@gmail.com</p>
+          </li>
+        </ul>
+      </div>
+
+      <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#home" class="ui-btn-active ui-state-persist">Thông tin cơ bản</a></li>
+            <li><a href="#interests">Sở thích</a></li>
+            <li><a href="#education">Học vấn - Kinh nghiệm</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+     <!-- Trang sở thích -->
+     <div data-role="page" id="interests">
+        <div data-role="header">
+          <h1>Sở thích</h1>
+        </div>
+  
+        <div data-role="main" class="ui-content">
+          <h2>Môn thể thao yêu thích</h2>
+          <p>Tôi thích chơi bóng rổ, chơi ít nhất một lần mỗi tuần.</p>
+  
+          <h2>Thói quen đọc sách</h2>
+          <p>Tôi thích đọc sách về công nghệ, hiện đang đọc cuốn sách "alone tree".</p>
+  
+          <h2>Kinh nghiệm du lịch</h2>
+          <p>Tôi thích du lịch, từng đi qua Nhật Bản, Thái Lan và Singapore.</p>
+        </div>
+  
+        <div data-role="footer" data-position="fixed">
+          <div data-role="navbar">
+            <ul>
+              <li><a href="#home">Thông tin cơ bản</a></li>
+              <li><a href="#interests" class="ui-btn-active ui-state-persist">Sở thích</a></li>
+              <li><a href="#education">Học vấn - Kinh nghiệm</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Trang học vấn - kinh nghiệm -->
+    <div data-role="page" id="education">
+        <div data-role="header">
+          <h1>Học vấn - Kinh nghiệm</h1>
+        </div>
+  
+        <div data-role="main" class="ui-content">
+          <h2>Học vấn</h2>
+          <ul data-role="listview">
+            <li>
+              <h3>景文科技大學</h3>
+              <p>Tốt nghiệp cử nhân ngành Kỹ thuật Máy tính, 2014-2018</p>
+            </li>
+            <li>
+              <h3>Đại học Quốc gia Trung Hải</h3>
+              <p>Tốt nghiệp thạc sỹ ngành Kỹ thuật Máy tính, 2018-2020</p>
+            </li>
+          </ul>
+  
+          <h2>Kinh nghiệm</h2>
+          <ul data-role="listview">
+            <li>
+              <h3>Google</h3>
+              <p>Kỹ sư phần mềm, 2020-nay</p>
+            </li>
+            <li>
+              <h3>Microsoft</h3>
+              <p>Thực tập sinh, 2023</p>
+            </li>
+          </ul>
+        </div>
+  
+        <div data-role="footer" data-position="fixed">
+          <div data-role="navbar">
+            <ul>
+              <li><a href="#home" data-transition="pop">Thông tin cơ bản</a></li>
+              <li><a href="#interests" data-transition="pop">Sở thích</a></li>
+              <li><a href="#education" data-transition="pop" class="ui-btn-active ui-state-persist">Học vấn - Kinh nghiệm</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
